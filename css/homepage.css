@@ -1,33 +1,81 @@
+/* body {
+    margin: 0;
+    background-image: url(../images/woman-receving-back-massage-spa_194498-4121.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+} */
+
+body{
+    background-color: bisque;
+    margin: 0;
+}
 
 /* NAVIGATION */
 .navbar{
-    background-color: orange;
+    display: flex;       
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
+    top: 0; 
 
-   
+    align-items: center;        
+    justify-content: space-between; 
+    padding: 10px 20px;
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
-    justify-content: flex-end;
-    gap: 50px; 
-    margin-right: 2%;
-
-    
-
-
-
- 
-    
+    gap: 40px;  
+    margin: 0;
+    padding: 0;
 }
 
+.navbar ul li a:hover {
+    background: brown;  
+    color: white;
+}   
+    
 
 .navbar ul li a{
-     text-decoration: none;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: rgb(112, 126, 8);
+    transition: background 0.3    , color 0.3s;
      
 }
 
+.navbar img {
+    width: 130px;  
+    height: auto;
+
+}
 
 
+
+
+.center{
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 40%;
+}
+
+.booking{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #c17d7d;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.booking:hover {
+    background-color: #a45e5e;
+}
