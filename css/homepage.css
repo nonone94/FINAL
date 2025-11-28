@@ -85,10 +85,13 @@ body{
 
 
 
+
+
 .imagess h1{
     font-weight: bold;
     color: rgb(193, 125, 125);
     margin-top: 10%;
+    
     
 }
 
@@ -117,7 +120,17 @@ body{
 
 }
 
+.imagess img:hover{
+     transform: scale(1.08);
+}
 
+
+.imagess h3{
+    margin: 0%;
+    margin-bottom: 100px;
+    color: rgb(171, 117, 54);
+    font-family:'Times New Roman', Times, serif;
+}
 
 
 
