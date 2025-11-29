@@ -1,53 +1,137 @@
-body{
-    background-color: bisque;
+body {
     margin: 0;
+    padding: 0;
 }
 
-/* NAVIGATION */
+
+
 .navbar{
     display: flex;       
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 50px;
+
+    height: 60px;
     position: fixed;
     top: 0; 
 
-    align-items: center;        
-    justify-content: space-between; 
     padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
-    gap: 40px;  
+    gap: 50px;  
+
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li a:hover {
-    background: brown;  
-    color: white;
-}   
     
-
 .navbar ul li a{
     text-decoration: none;
-    display: block;
     padding: 14px 20px;
     text-decoration: none;
+
     color: rgb(112, 126, 8);
     transition: background 0.3    , color 0.3s;
      
 }
 
-.navbar img {
-    width: 150px;  
-    height: auto;
+
+.navbar ul li a:hover {
+    background: brown;  
+    color: white;
+}   
+
+
+
+
+
+.line {
+    display: flex;              
+    justify-content: center; 
+    align-items: center; 
+    height: 150px;            
+    background-color: bisque;   
 
 }
 
-/* nav */
+.line p {
+    margin-top: 90px;       
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;           
+}
+
+
+
+
+.bookingwhole {
+    width: 280px;
+    border: 1px solid #e6dfd7;
+    background-color: #fff8f0;
+
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    margin-left: 60%;
+    
+    margin-top: 30px;
+}
+
+.bookingwhole h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.summarybox {
+    border: 1px solid #e0d8cf;
+    background-color: #f7f3ef;
+    padding: 20px;
+    height: 120px;
+    border-radius: 4px;
+}
+
+.summarybox p {
+    margin: 0;
+    color: #000000;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,8 +162,8 @@ body{
     flex-wrap: wrap;
     background-color:  rgb(38, 34, 34);
     width: 100%;
-    height: 250px;
-    margin-top: 50%;
+    height: 300px;
+    margin-top: 20%;
     font-family:'Courier New', Courier, monospace
  
 }
@@ -92,9 +176,14 @@ body{
 
 
 
-.foot img{
+.LOGO img{
     height: 200px;
     width: auto;    
+}
 
-   
+.fb img{
+     height: 50px;
+     width: auto;   
+     margin-left: 70px;
+    
 }
