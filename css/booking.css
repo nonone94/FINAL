@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -70,19 +71,19 @@ body {
 
 
 
-.bookingwhole {
+.bookingsumwhole {
     width: 350px;
     border: 1px solid #e6dfd7;
     background-color: #fff8f0;
 
     padding: 15px;
     font-family: Arial, sans-serif;
-    margin-left: 60%;
+    margin-left: 62%;
     
     margin-top: 40px;
 }
 
-.bookingwhole h3 {
+.bookingsumwhole h3 {
     margin: 0 0 10px 0;
     font-size: 18px;
 }
@@ -105,30 +106,40 @@ body {
 
 
 
+
+
+
+
 .booking{
     width: 50%;
-    margin-left: 60px;
-    margin-top: -300px;
+    margin-left: 200px;
+    margin-top: -250px;
     font-family: Arial, sans-serif;
-    background-color: #fff8f8;
+    background-color: #ffffff;
 }
 
 .title {
     font-size: 22px;
     font-weight: 600;
-    margin-left: 2px;
+    margin-left: 3px;
+    margin : 10px auto auto 3px;
 }
 
 .secondbox {
     display: flex;
     background: #fff;
     border: 1px solid #e0e0e0;
+
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 20px;
+
     align-items: center;
     gap: 20px;
     transition: 0.2s;
+
+    height: 200px;
+
 }
 
 .secondbox:hover {
@@ -136,8 +147,8 @@ body {
 }
 
 .secondbox img {
-    width: 220px;
-    height: 150px;
+    width: 250px;
+    height: 180px;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -160,21 +171,23 @@ body {
     padding: 10px 20px;
 
     border-radius: 8px;
-    cursor: pointer;
     font-weight: 600;
+    cursor: pointer;
 
     color: #fff;
     transition: 0.2s;
+    list-style: none;
 
-    width: 90px;
-    margin-left: 70%;
+    width: 250px;
+    margin-left: 86%;
     text-align: center;
+
+    text-decoration: none;
 }
 
 .button:hover {
     background: #b9976a;
 }
-
 
 
 
