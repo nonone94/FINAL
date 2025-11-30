@@ -71,7 +71,7 @@ body {
 
 
 .bookingwhole {
-    width: 280px;
+    width: 350px;
     border: 1px solid #e6dfd7;
     background-color: #fff8f0;
 
@@ -79,7 +79,7 @@ body {
     font-family: Arial, sans-serif;
     margin-left: 60%;
     
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .bookingwhole h3 {
@@ -91,7 +91,7 @@ body {
     border: 1px solid #e0d8cf;
     background-color: #f7f3ef;
     padding: 20px;
-    height: 120px;
+    height: 190px;
     border-radius: 4px;
 }
 
@@ -105,30 +105,75 @@ body {
 
 
 
+.booking{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: -300px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f8;
+}
 
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 2px;
+}
 
+.secondbox {
+    display: flex;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 20px;
+    transition: 0.2s;
+}
 
+.secondbox:hover {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
 
+.secondbox img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
+.about h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
 
+.about p {
+    margin: 8px 0 16px;
+    color: #7a7a7a;
+    
+}
 
+.button {
+    background: #d2b48c;
+    border: none;
+    padding: 10px 20px;
 
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
 
+    color: #fff;
+    transition: 0.2s;
 
+    width: 90px;
+    margin-left: 70%;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button:hover {
+    background: #b9976a;
+}
 
 
 
