@@ -82,14 +82,24 @@ body {
 
 .inputs {
   display: flex;
-  flex-direction: column;  
-  gap: 20px;             
-  width: 400px;           
+  flex-direction: column;           
+  width: 400px;        
+
   padding: 30px;
   background-color: #fff;  
   border-radius: 12px;
+
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+
+.inputs form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
 
 
 

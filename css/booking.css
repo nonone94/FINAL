@@ -161,11 +161,13 @@ body {
 
 .about p {
     margin: 8px 0 16px;
-    color: #7a7a7a;
+    color: #ffffff;
+    justify-content: end;
     
 }
 
 .button {
+    display: flex;
     background: #d2b48c;
     border: none;
     padding: 10px 20px;
@@ -178,11 +180,11 @@ body {
     transition: 0.2s;
     list-style: none;
 
-    width: 250px;
-    margin-left: 86%;
-    text-align: center;
-
+    width: 100px;
+    justify-content: center;  
     text-decoration: none;
+
+    
 }
 
 .button:hover {
