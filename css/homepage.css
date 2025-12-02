@@ -119,7 +119,7 @@ body {
 
 .imagess p{
     text-align: center;
-   margin :-20px 200px 50px 200px;
+    margin :-10px 250px 50px 250px;
     font-size: 20px;
 
    
@@ -216,8 +216,29 @@ body {
 
 
 
-/* Mobile adjustments */
+
 @media (max-width: 768px) {
+
+   .body1 {
+    width: 100%;
+    }
+
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
     
     .logon img {
         width: 90%;         
@@ -244,10 +265,15 @@ body {
         gap: 20px;          
     }
 
+    
     .booking {
         font-size: 16px;
         padding: 10px 20px;
     }
+
+
+
+
 
     .foot {
         flex-direction: column; 

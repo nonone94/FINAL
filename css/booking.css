@@ -161,7 +161,7 @@ body {
 
 .about p {
     margin: 8px 0 16px;
-    color: #ffffff;
+    color: #000000;
     justify-content: end;
     
 }
@@ -201,23 +201,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .foot{
     flex-wrap: wrap;
     background-color:  rgb(38, 34, 34);
@@ -246,4 +229,109 @@ body {
      width: auto;   
      margin-left: 70px;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+
+
+ 
+    .line {
+        height: 100px;
+    }
+
+    .line p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+
+
+
+    .bookingsumwhole {
+        margin-top: 40px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .booking {
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
+
+
+    .secondbox {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .secondbox img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+
+
+
+    .button {
+        width: 90%;
+        padding: 12px;
+        justify-content: center;
+    }
+
+
+
+    .foot {
+        height: auto;
+        margin-top: 40px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .foot p {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .LOGO img {
+        height: 150px;
+    }
+
+    .fb img {
+        margin-left: 0;
+        height: 45px;
+    }
 }
