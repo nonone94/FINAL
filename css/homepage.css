@@ -16,7 +16,9 @@ body {
 
 
 .body1 {
-    background-color: bisque;
+    background: url(../images/backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     min-height: 100vh;
     padding-top: 100px;
@@ -36,6 +38,8 @@ body {
     padding: 10px 20px;
     justify-content: center;
     align-items: center;
+
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
 }
 
 .navbar ul{
