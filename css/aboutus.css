@@ -16,7 +16,7 @@ body {
     top: 0; 
 
     padding: 10px 20px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
@@ -48,6 +48,14 @@ body {
     background: brown;  
     color: white;
 }   
+
+
+.navbar img{
+  width: 130px;
+  height: auto;
+ justify-content: center; 
+  align-items: center; 
+}
 
 
 
