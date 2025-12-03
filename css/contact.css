@@ -104,7 +104,7 @@ body {
 
 .inputs {
   display: flex;
-  flex-direction: column;
+ 
   width: 400px;
   padding: 30px;
   background-color: #fff;
@@ -222,5 +222,149 @@ body {
      margin-left: 70px;
     
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+   
+  .line image{
+    width: 100%
+  }
+
+   .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .navbar ul li a {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+ 
+  .line {
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover;    
+    justify-content: center; 
+    
+  }
+
+  .line h1 {
+    font-size: 24px;
+    margin-top: 50px;
+    padding: 0 10px;
+     align-items: center;
+  }
+
+
+  /* BACKGROUND + FORM + TEXT */
+  .backgroundname {
+    flex-direction: column;  /* stack vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;               /* spacing between text and form */
+    padding: 40px 20px;
+    width: 100%;
+  }
+
+  .texts {
+    max-width: 80%;          /* fill most of the screen */
+    text-align: center;
+  }
+
+  .texts h2 {
+    font-size: 20px;
+    white-space: normal;     /* allow wrapping */
+    margin-left: 0;
+  }
+
+  .texts p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+   .inputs {
+    width: 80%;            
+    max-width: 300px;
+    
+  }
+
+
+  .inputs input{
+   width: 50%;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* FOOTER */
+      .foot {
+      flex-direction: column; 
+      height: auto;       
+      padding: 20px;
+     
+    }
+
+    .foot p, .fb img {
+      margin-left: 0;     
+      margin-bottom: 10px;
+    }
+
+  .LOGO img{
+    height: 100px;
+    width: auto;    
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
