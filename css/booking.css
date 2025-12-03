@@ -78,7 +78,7 @@ body {
 
     padding: 15px;
     font-family: Arial, sans-serif;
-    margin-left: 62%;
+    margin-left: 70%;
     
     margin-top: 40px;
 }
@@ -243,7 +243,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
 
     .navbar {
         height: auto;
@@ -313,25 +313,20 @@ body {
     }
 
 
-
-    .foot {
-        height: auto;
-        margin-top: 40px;
-        padding: 20px 0;
-        text-align: center;
+   .foot {
+      flex-direction: column; 
+      height: auto;       
+      padding: 20px;
+     
     }
 
-    .foot p {
-        margin-left: 0;
-        margin-bottom: 10px;
+    .foot p, .fb img {
+      margin-left: 0;     
+      margin-bottom: 10px;
     }
 
-    .LOGO img {
-        height: 150px;
-    }
-
-    .fb img {
-        margin-left: 0;
-        height: 45px;
-    }
+  .LOGO img{
+    height: 100px;
+    width: auto;    
+   }
 }
