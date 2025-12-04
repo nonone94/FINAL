@@ -204,3 +204,87 @@ body {
 }
 
 
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+
+  
+
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .line {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+    
+
+
+  .inputs{
+    width: 80%;
+  }
+
+
+         .foot {
+      height: auto;       
+      padding: 20px;
+     
+    }
+
+    .foot p, .fb img {
+      margin-left: 0;     
+      margin-bottom: 10px;
+    }
+
+  .LOGO img{
+    height: 100px;
+    width: auto;    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
